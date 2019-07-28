@@ -23,7 +23,7 @@ import blueGray from "@material-ui/core/colors/blueGrey";
 /* eslint-enable no-unused-vars */
 
 const settings = {
-  title: "React + Material-UI + Firebase",
+  title: "Dangerous Devices",
 
   theme: {
     primaryColor: {

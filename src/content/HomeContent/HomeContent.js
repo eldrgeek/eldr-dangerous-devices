@@ -12,7 +12,7 @@ import CodeIcon from "@material-ui/icons/Code";
 import HomeIcon from "@material-ui/icons/Home";
 
 import GitHubCircleIcon from "mdi-material-ui/GithubCircle";
-
+import StepperContent from "../StepperContent/StepperContent";
 import EmptyState from "../../layout/EmptyState/EmptyState";
 // import StepperContent from "../StepperContent/StepperContent"
 // import StepperContent from "../StepperContent/StepperContent.js";
@@ -60,25 +60,26 @@ class HomeContent extends Component {
     }
 
     return (
+      <StepperContent />
       // <StepperContent />
-      <EmptyState
-        icon={<CodeIcon className={classes.emptyStateIcon} color="action" />}
-        title={title}
-        description="The three musketeers, all in one pack in the form of a boilerplate app"
-        button={
-          <Fab
-            className={classes.button}
-            color="secondary"
-            href="https://github.com/Phoqe/react-material-ui-firebase"
-            rel="noopener noreferrer"
-            target="_blank"
-            variant="extended"
-          >
-            <GitHubCircleIcon className={classes.buttonIcon} />
-            GitHub
-          </Fab>
-        }
-      />
+      // <EmptyState
+      //   // icon={<CodeIcon className={classes.emptyStateIcon} color="action" />}
+      //   title={title}
+      //   description="The three musketeers, all in one pack in the form of a boilerplate app"
+      //   button={
+      //     <Fab
+      //       className={classes.button}
+      //       color="secondary"
+      //       href="https://github.com/Phoqe/react-material-ui-firebase"
+      //       rel="noopener noreferrer"
+      //       target="_blank"
+      //       variant="extended"
+      //     >
+      //       <GitHubCircleIcon className={classes.buttonIcon} />
+      //       GitHub
+      //     </Fab>
+      //   }
+      // />
     );
   }
 }
